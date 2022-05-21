@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("../image/k91.png");
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 1rem;
+}
+
+main {
+  margin-left: 7em;
+  line-height: 2.5em;
+  display: flex;
+  flex: 1;
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+}
+
+#tout{
+  flex-direction: vertical;
+  flex: 0.4;
+  text-align: center;
+  background-color: 
+  rgba(97, 89, 89, 0.365);
+  border-radius: 2em 0em 0em 2em;
+}
+
+#valide{
+  flex-direction: vertical;
+  flex: 0.5;
+  line-height: 2em;
+  text-align: center;
+  background-color: 
+  rgba(97, 89, 89, 0.365);
+  border-radius: 0 2em 2em 0em;
+}
+
+
+ h1 {
+
+  font-family: cursive;
+}
+button{
+  color: brown;
+}
+
+.nb{
+  color: black;
+  width: 5.3em;
+}
+
+label{
+  font-size: 1.2em;
+}
+
+#corp{
+  margin-left: 10em;
+}
+#titre{
+  margin-left: 10em;
+}
+
+.nom{
+  color: black;
+  width: 6em;
+}
+
+#CV{
+  margin-top: 0.5em;
+}
+
+.mission{
+  color: black;
+}
+.dateM{
+  color: black;
+}
+
+#contratV{
+  font-size: 1em;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous"/>
+	<meta charset="UTF-8"/>
+	<title>K9</title>
+	<link href="styles/index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<main>
+		<div id="tout">
+			<div id="titre">
+				<h1><img src="image/logo.png" height="50em" />K9 Security</h1>
+			</div>
+			<div id="corp">
+				
+				<label>Durée contrat</label>
+				<br>
+				<input class="nb" type="time" id="nbContrat" name="nbContrat" min="09:00" max="18:00" required>
+				<br>
+		
+				<label>Total agent:</label>
+				<br>
+				<input class="nb" id="nbAgent" type="number" />
+				<br>
+				<input type="checkbox" id="tazer" name="tazer">
+				<label for="tazerL">Stungun</label>
+				<br>
+				
+				<input type="checkbox" id="pistol" name="pistol">
+				<label for="pistolL">Pistol</label>
+				<br>
+				
+				<input type="checkbox" id="pistolCombat" name="pistolCombat">
+				<label for="pistolCombatL">Combat Pistol</label>
+				<br>
+		
+				<input type="checkbox" id="pistolCal50" name="pistolCal50">
+				<label for="pistolCal50L">Pistol.50</label>
+				<br>
+		
+				<input type="checkbox" id="pistolLourd" name="pistolLourd">
+				<label for="pistolLourdL">Heavy Pistol</label>
+				<br>
+		
+				<input type="checkbox" id="gilet" name="gilet">
+				<label for="giletL">Ballistic Vest</label>
+				<br>
+		
+				<input type="checkbox" id="pompe" name="pompe">
+				<label for="pompeL">Pump Shotgun</label>
+				<br>
+		
+				<input type="checkbox" id="pompeBullpup" name="pompeBullpup">
+				
+				<label id="pompeBullpupL">Pump Bullpup</label>
+				<br>
+		
+				<input type="checkbox" id="mitraillette" name="mitraillette">
+				<label for="mitrailletteL">Assault SMG</label>
+				<br>
+				<button id="btnReduc">Réduction</button>
+				<br>
+				<div id="reducDiv" >
+					<input class="nb" id="reduc" type="number"/>%
+				</div>
+		
+				<button id="res">Entrer</button>
+				<br>
+				<label id="resultat"></label>
+				<br>
+				<label>Total par agent : </label>
+				<label id="resultAgent"></label>
+			</div>
+			
+		</div>
+		<div id="valide">
+			<h1 id="CV">Contrat Validé</h1>
+			<div id="valideText">
+			Prenom:<input class="nom" id="prenom" type="text" />Nom:<input class="nom" id="nom" type="text" /> ID:<input class="nom" id="id" type="number" />
+			<br>
+			Type de Mission :<input class="mission" id="typeM" type="text" />
+			<br>
+			Ville/Lieu :<input class="mission" id="lieu" type="text" />
+			<br>
+			Date :<input class="dateM" id="date" type="date" />
+			<br>
+			<label id="contratV" ></label>
+			</div>
+		</div>
+	</main>
+	
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="js/index.js"> </script>
+</body>
+
+</html>
