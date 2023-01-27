@@ -14,7 +14,7 @@ html, body {
 }
 
 body {
-  background-image: url("../image/k91.png");
+  background-image: url("../image/K9.png");
   display: flex;
   flex-direction: column;
 }
@@ -47,7 +47,7 @@ footer {
 #valide{
   flex-direction: vertical;
   flex: 0.5;
-  line-height: 2em;
+  line-height: 1.7em;
   text-align: center;
   background-color: 
   rgba(97, 89, 89, 0.365);
@@ -96,5 +96,9 @@ label{
 }
 
 #contratV{
-  font-size: 1em;
+  font-size: 0.9em;
+}
+
+#annoceS{
+  font-size: 0.9em;
 }

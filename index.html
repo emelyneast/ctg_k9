@@ -53,8 +53,11 @@
 				<br>
 		
 				<input type="checkbox" id="pompeBullpup" name="pompeBullpup">
-				
 				<label id="pompeBullpupL">Pump Bullpup</label>
+				<br>
+
+				<input type="checkbox" id="chien" name="chien">
+				<label id="chienL">unité K9</label>
 				<br>
 		
 				<input type="checkbox" id="mitraillette" name="mitraillette">
@@ -76,17 +79,43 @@
 			
 		</div>
 		<div id="valide">
-			<h1 id="CV">Contrat Validé</h1>
-			<div id="valideText">
-			Prenom:<input class="nom" id="prenom" type="text" />Nom:<input class="nom" id="nom" type="text" /> ID:<input class="nom" id="id" type="number" />
-			<br>
-			Type de Mission :<input class="mission" id="typeM" type="text" />
-			<br>
-			Ville/Lieu :<input class="mission" id="lieu" type="text" />
-			<br>
-			Date :<input class="dateM" id="date" type="date" />
-			<br>
-			<label id="contratV" ></label>
+			
+				<h1 id="CV">Contrat Validé</h1>
+				<div id="valideText" >
+				Prenom:<input class="nom" id="prenom" type="text" />Nom:<input class="nom" id="nom" type="text" /> ID:<input class="nom" id="id" type="number" />
+				<br>
+				Type de Mission :<input class="mission" id="typeM" type="text" />
+				<br>
+				Ville/Lieu :<input class="mission" id="lieu" type="text" />
+				<br>
+				Date :<input class="dateM" id="date" type="date" />
+				<br>
+				Heure début évenement  :<input class="nb" type="time" id="heureD" name="nbContrat" min="09:00" max="18:00" required>
+				<br>
+				Tenu:<input type="checkbox" id="chic" name="chic">
+				<label for="chicL">Chic</label>
+				<input type="checkbox" id="chicL" name="chicL">
+				<label for="chicLL">Chic Lourde</label>
+				<input type="checkbox" id="TT" name="TT">
+				<label for="TTL">Tout-terrain</label>
+				<input type="checkbox" id="lourde" name="lourde">
+				<label for="lourdeL">Lourde</label>
+
+				<br>
+				<button id="delai">Delai a réspecter</button>
+				
+				<div id="contartValide" style="visibility: visible" >
+					<label id="contratV" ></label>
+					<br>
+					<button id="btnCV" class="page">Annonce Sécu</button>
+					
+				</div>
+				<div id="annonceSecu">
+					<label id="annoceS" ></label>
+					<br>
+					<button id="btnAS" class="page">Contrat validé</button>
+				</div>
+				
 			</div>
 		</div>
 	</main>
