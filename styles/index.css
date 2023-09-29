@@ -1,104 +1,158 @@
-* {
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-  max-width: 100%;
-  color: aliceblue;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  font-weight: normal;
-}
-
-html, body {
-  height: 100%;
-}
-
 body {
-  background-image: url("../image/K9.png");
-  display: flex;
-  flex-direction: column;
+  background-color: #e0dad5;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
-header {
-  padding: 1rem;
-}
-
-main {
-  margin-left: 7em;
-  line-height: 2.5em;
-  display: flex;
-  flex: 1;
-}
-
-footer {
-  padding: 1rem;
+/* Style pour le titre */
+#titre {
+  background-color: #444444;
+  color: white;
+  margin-bottom: 20px;
+  padding: 20px;
   text-align: center;
 }
 
-#tout{
-  flex-direction: vertical;
-  flex: 0.4;
-  text-align: center;
-  background-color: 
-  rgba(97, 89, 89, 0.365);
-  border-radius: 2em 0em 0em 2em;
+/* Style pour le logo */
+#titre img {
+  vertical-align: middle;
 }
 
-#valide{
-  flex-direction: vertical;
-  flex: 0.5;
-  line-height: 1.7em;
-  text-align: center;
-  background-color: 
-  rgba(97, 89, 89, 0.365);
-  border-radius: 0 2em 2em 0em;
+/* Style pour le corps */
+#corp {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
 
-
- h1 {
-
-  font-family: cursive;
-}
-button{
-  color: brown;
-}
-
-.nb{
-  color: black;
-  width: 5.3em;
-}
-
-label{
-  font-size: 1.2em;
+/* Style pour les champs de texte et les boutons */
+input[type="text"],
+input[type="date"],
+input[type="time"],
+.nb {
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-bottom: 15px;
+  margin-left: -10px;
+  padding: 10px;
+  width: 100%;
 }
 
-#corp{
-  margin-left: 10em;
-}
-#titre{
-  margin-left: 10em;
-}
-
-.nom{
-  color: black;
-  width: 6em;
+button {
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
 }
 
-#CV{
-  margin-top: 0.5em;
+.armeNB {
+  width: 50px;
 }
 
-.mission{
-  color: black;
-}
-.dateM{
-  color: black;
+/* Style pour les cases à cocher */
+input[type="checkbox"] {
+  margin-right: 10px;
 }
 
-#contratV{
-  font-size: 0.9em;
+/* Style pour les titres des sections */
+label {
+  font-weight: bold;
 }
 
-#annoceS{
-  font-size: 0.9em;
+/* Style pour le bouton de validation */
+#res {
+  background-color: #444444;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px;
+  width: auto;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Style pour les sections d'affichage des résultats */
+#resultat,
+#resultAgent {
+  font-weight: bold;
+}
+
+/* Style pour les sections des boutons de navigation */
+.page {
+  background-color: #444444;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+#valide {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+/* Style pour la section "Contrat Validé" */
+#contartValide {
+  visibility: visible;
+}
+
+/* Style pour la section "Annonce Sécu" */
+#annonceSecu {
+  display: none;
+}
+
+/* Style pour la barre de réduction */
+#reducDiv {
+  display: none;
+}
+
+/* Style pour les éléments à numéro */
+.nb {
+  width: 60px;
+}
+
+/* Style pour les éléments de mission */
+.mission {
+  width: 200px;
+}
+
+/* Style pour les éléments de nom */
+.nom {
+  width: 100px;
+}
+
+/* Style pour les éléments de date */
+.dateM {
+  width: 140px;
 }

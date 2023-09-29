@@ -5,7 +5,7 @@
 	<meta charset="UTF-8"/>
 	<title>K9</title>
 	<link href="styles/index.css" rel="stylesheet" type="text/css">
-</head>
+<link rel="stylesheet" href="https://localhost:63824/stylesheet?id=yTMqnU1AFsE_gj-V"></head>
 
 <body>
 	<main>
@@ -25,61 +25,51 @@
 				<input class="nb" id="nbAgent" type="number" />
 				<br>
 				<input type="checkbox" id="tazer" name="tazer">
+				<input type="number" class="armeNB" id="tazerNb" name="tazerN">
 				<label for="tazerL">Stungun</label>
 				<br>
 				
 				<input type="checkbox" id="pistol" name="pistol">
+				<input type="number" class="armeNB" id="pistolNb" name="pistolN">
 				<label for="pistolL">Pistol</label>
 				<br>
 				
 				<input type="checkbox" id="pistolCombat" name="pistolCombat">
+				<input type="number" class="armeNB" id="pistolCombatNb" name="pistolCombatN">
 				<label for="pistolCombatL">Combat Pistol</label>
 				<br>
 		
 				<input type="checkbox" id="pistolCal50" name="pistolCal50">
+				<input type="number" class="armeNB" id="pistolCal50Nb" name="pistolCal50N">
 				<label for="pistolCal50L">Pistol.50</label>
 				<br>
 		
 				<input type="checkbox" id="pistolLourd" name="pistolLourd">
+				<input type="number" class="armeNB" id="pistolLourdNb" name="pistolLourdN">
 				<label for="pistolLourdL">Heavy Pistol</label>
 				<br>
 		
 				<input type="checkbox" id="gilet" name="gilet">
+				<input type="number" class="armeNB" id="giletNb" name="giletN">
 				<label for="giletL">Ballistic Vest</label>
 				<br>
 		
 				<input type="checkbox" id="pompe" name="pompe">
+				<input type="number" class="armeNB" id="pompeNb" name="pompeN">
 				<label for="pompeL">Pump Shotgun</label>
 				<br>
 		
-				<input type="checkbox" id="pompeBullpup" name="pompeBullpup">
-				<label id="pompeBullpupL">Pump Bullpup</label>
-				<br>
-
+				
 				<input type="checkbox" id="chien" name="chien">
 				<label id="chienL">unité K9</label>
 				<br>
-		
+				
 				<input type="checkbox" id="mitraillette" name="mitraillette">
+				<input type="number" class="armeNB" id="mitrailletteNb" name="mitrailletteN">
 				<label for="mitrailletteL">Assault SMG</label>
 				<br>
-				<button id="btnReduc">Réduction</button>
-				<br>
-				<div id="reducDiv" >
-					<input class="nb" id="reduc" type="number"/>%
-				</div>
+				
 		
-				<button id="res">Entrer</button>
-				<br>
-				<label id="resultat"></label>
-				<br>
-				<label>Total par agent : </label>
-				<label id="resultAgent"></label>
-			</div>
-			
-		</div>
-		<div id="valide">
-			
 				<h1 id="CV">Contrat Validé</h1>
 				<div id="valideText" >
 				Prenom:<input class="nom" id="prenom" type="text" />Nom:<input class="nom" id="nom" type="text" /> ID:<input class="nom" id="id" type="number" />
@@ -103,7 +93,25 @@
 
 				<br>
 				<button id="delai">Delai a réspecter</button>
-				
+				<br>
+				<br>
+				<button id="btnReduc">Réduction</button>
+				<br>
+				<div id="reducDiv" >
+					<input class="nb" id="reduc" type="number"/>%
+				</div>
+		
+				<br>
+				<button id="res">Entrer</button>
+
+				<br>
+				<label id="resultat"></label>
+				<br>
+				<label>Total par agent : </label>
+				<label id="resultAgent"></label>
+				<p>-----------------------------</p>
+				<br>
+
 				<div id="contartValide" style="visibility: visible" >
 					<label id="contratV" ></label>
 					<br>
